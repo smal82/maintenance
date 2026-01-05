@@ -1,0 +1,133 @@
+/* assets/css/variables.css */
+
+:root {
+    /* Colors - Primary Palette */
+    --color-primary: #3498db;
+    --color-primary-dark: #2980b9;
+    --color-primary-light: #5dade2;
+    --color-primary-lighter: #ebf5fb;
+    
+    /* Colors - Secondary */
+    --color-secondary: #2ecc71;
+    --color-secondary-dark: #27ae60;
+    --color-secondary-light: #58d68d;
+    
+    /* Colors - Status */
+    --color-success: #2ecc71;
+    --color-warning: #f39c12;
+    --color-danger: #e74c3c;
+    --color-info: #3498db;
+    
+    /* Colors - Priority */
+    --color-critical: #c0392b;
+    --color-high: #e74c3c;
+    --color-medium: #f39c12;
+    --color-low: #95a5a6;
+    
+    /* Colors - Neutrals */
+    --color-dark: #2c3e50;
+    --color-text: #34495e;
+    --color-text-light: #7f8c8d;
+    --color-text-lighter: #95a5a6;
+    --color-border: #dfe6e9;
+    --color-bg: #f8f9fa;
+    --color-white: #ffffff;
+    
+    /* Sidebar */
+    --sidebar-width: 260px;
+    --sidebar-collapsed-width: 70px;
+    --sidebar-bg: #2c3e50;
+    --sidebar-text: #ecf0f1;
+    --sidebar-hover: #34495e;
+    --sidebar-active: #3498db;
+    
+    /* Topbar */
+    --topbar-height: 64px;
+    --topbar-bg: #ffffff;
+    --topbar-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 0.75rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-round: 50%;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+    --shadow-xl: 0 20px 25px rgba(0,0,0,0.15);
+    
+    /* Typography */
+    --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 350ms ease;
+    
+    /* Z-index */
+    --z-dropdown: 1000;
+    --z-modal: 1050;
+    --z-tooltip: 1070;
+    --z-notification: 1090;
+    
+    /* Cards */
+    --card-bg: #ffffff;
+    --card-border: var(--color-border);
+    --card-shadow: var(--shadow-sm);
+    --card-padding: var(--spacing-lg);
+    
+    /* Forms */
+    --input-height: 40px;
+    --input-padding: 0 var(--spacing-md);
+    --input-border: var(--color-border);
+    --input-border-focus: var(--color-primary);
+    --input-bg: var(--color-white);
+    --input-radius: var(--radius-md);
+    
+    /* Buttons */
+    --btn-height: 40px;
+    --btn-padding: 0 var(--spacing-lg);
+    --btn-radius: var(--radius-md);
+    --btn-font-weight: var(--font-weight-medium);
+}
+
+/* Dark Mode Support (optional) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-bg: #1a1a1a;
+        --color-text: #e0e0e0;
+        --color-border: #333333;
+        --card-bg: #2a2a2a;
+        --topbar-bg: #2a2a2a;
+        --input-bg: #333333;
+    }
+}

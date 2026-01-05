@@ -1,0 +1,25 @@
+{
+  "name": "example-plugin",
+  "display_name": "Plugin di Esempio",
+  "description": "Questo è un plugin di esempio che mostra come estendere il sistema",
+  "version": "1.0.0",
+  "author": "Il Tuo Nome",
+  "author_url": "https://example.com",
+  "requires": {
+    "php": "7.4",
+    "system_version": "1.0"
+  },
+  "settings": {
+    "enable_widget": true,
+    "notification_email": "admin@example.com"
+  },
+  "hooks": [
+    "dashboard_title",
+    "dashboard_widgets",
+    "maintenance_saved"
+  ],
+  "permissions": [
+    "view_dashboard",
+    "manage_settings"
+  ]
+}
