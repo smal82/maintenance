@@ -3,14 +3,14 @@
 
 // Configurazione Database
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'tgprwnoq_maintenance');
-define('DB_USER', 'tgprwnoq_maintenance');
-define('DB_PASS', '=5t4XHdM[NuD');
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
 define('DB_CHARSET', 'utf8mb4');
 
 // Configurazione Applicazione
 define('SITE_NAME', 'Maintenance Pro');
-define('BASE_URL', 'https://maintenance.netsons.org');
+define('BASE_URL', '');
 define('TIMEZONE', 'Europe/Rome');
 date_default_timezone_set(TIMEZONE);
 
@@ -27,8 +27,8 @@ define('IMG_URL', BASE_URL . '/assets/img');
 
 // Sicurezza
 define('SESSION_NAME', 'MAINTENANCE_SESSION');
-define('CSRF_TOKEN_NAME', 'csrf_ba7309af7dd8b6d6b091f34a7f8371c6');
-define('PASSWORD_SALT', '49277dc4771af396a8006e36e521c82d0bdca50d91570cc10edf6f5440905324');
+define('CSRF_TOKEN_NAME', '');
+define('PASSWORD_SALT', '');
 
 // Upload
 define('MAX_FILE_SIZE', 10485760); // 10MB
